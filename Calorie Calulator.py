@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 import time
 
-#pg.theme("DarkAmber")
+sg.theme("DarkAmber")
 layout = [
      [sg.Text("Calories Calculator"), sg.Input(key = '-IN-')],
      #[sg.InputText()],
